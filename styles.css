@@ -8,8 +8,17 @@
     margin: 30px 0;
 }
 
+.card-header.grid {
+    grid-gap: 0;
+}
+
 .card-body {
     padding: 30px;
+}
+
+.embed {
+    width: 100%;
+    aspect-ratio: 8 / 6;
 }
 
 .grid {
