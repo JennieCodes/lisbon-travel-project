@@ -1,15 +1,69 @@
-h1 {
-    font-family: 'Alex Brush', cursive;
-    font-size: 100px;
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
-h2 {
+header {
+    background-image: url('images/lisbon\ orange\ roof.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 260px;
+}
+
+header h1 {
+    font-family: 'Alex Brush', cursive;
+    font-size: 80px;
+    background: #fff0f3;
+    line-height: 1.5;
+}
+
+header h2 {
     font-family: 'Julius Sans One', sans-serif;
     font-weight: 400;
     font-size: 30px;
+    line-height: 1;
+    margin: 30px 0;
+}
+
+header h3 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bolder;
+    line-height: 1.5;
+    letter-spacing: 5px;
+}
+
+header a {
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: white;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px;
 }
 
 footer {
     font-family: 'Julius Sans One', sans-serif;
     font-size: 15px;
+}
+
+@media (max-width: 800px) {
+    header  {
+        padding: 60px 0;
+    }
+
+    header h1 {
+        font-size: 45px;
+    }
+
+    header h2 {
+        font-size: 20px;
+    }
+
+    header h3 {
+        font-size: 15px;
+    }
 }
