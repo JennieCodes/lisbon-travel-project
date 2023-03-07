@@ -3,6 +3,20 @@
     margin: 0 auto;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 header {
     background-image: url('images/lisbon\ orange\ roof.jpg');
     background-repeat: no-repeat;
@@ -48,9 +62,39 @@ header a {
 footer {
     font-family: 'Julius Sans One', sans-serif;
     font-size: 15px;
+    background-image: linear-gradient(rgba(147,201,227,0.8), rgba(165,208,228,0.8)),
+    url("images/libson\ bridge.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
 }
 
-@media (max-width: 800px) {
+footer h3 {
+    font-size: 15px;
+    line-height: 1;
+    font-size: 20px;
+}
+
+footer p {
+    font-size: 15px;
+    line-height: 30px;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    list-style: none;
+    padding: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 960px) {
     header  {
         padding: 60px 0;
     }
